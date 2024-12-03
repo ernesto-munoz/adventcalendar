@@ -1,6 +1,5 @@
 
 def is_report_correct(report:list[int]) -> bool:
-    
     order = (report[1] - report[0]) > 0
     for i in range(1, len(report)):
         previous = report[i - 1]
